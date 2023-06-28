@@ -1,9 +1,9 @@
 package com.pro_2.U_course;
 
 public class GameRunner {
-    MarioGame game;
+    private SuperContraGame game;
 
-    public GameRunner(MarioGame game){
+    public GameRunner(SuperContraGame game){
         this.game = game;
     }
     public void run() {
